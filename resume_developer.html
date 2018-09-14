@@ -2,11 +2,9 @@
 <html>
 <head>
 	<title>Resume - Developer</title>
-	<link rel="stylesheet" type="text/css" href="css\bootstrap4.min.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap4.min.css">
+	<link rel="stylesheet" type="text/css" href="css/timeline.css">
 	<style type="text/css">
-		#myname{
-			font-size: 2.6rem;
-		}
 		hr{
 			background-color: black;
 		}
@@ -28,18 +26,18 @@
 			background-color: #444;
 		}
 		.container{
-			max-width: 1300px;
+			max-width: 1100px;
 		}
 		h1{
-			font-size: 3em;
+			font-size: 2em;
 			color: #000;
 		}
 		h3{
-			font-size: 2em;
+			font-size: 1.6em;
 			color: blue;
 		}
 		p{
-			font-size: 1.6em;
+			font-size: 1.3em;
 		}
 		#black-font{
 			color: #000;
@@ -60,11 +58,11 @@
 			<br>
 			<h3>Personal Information</h3>
 			<br>
-			<h5>Address</h5>
+			<h5><img src="icons/icons8-home-26.png"> Address</h5>
 			<p>26, Ghanshyam Park Society, New Sama Road, Vadodara</p>
-			<h5>Email</h5>
+			<h5><img src="icons/icons8-new-post-26.png"> Email</h5>
 			<p>manavprajapati1398@gmail.com</p>
-			<h5>Phone</h5>
+			<h5><img src="icons/icons8-phone-26.png"> Phone</h5>
 			<p>+91-7984361284</p>
 
 			<h3>Hobbies</h3>
@@ -94,9 +92,18 @@
 
 			<h3 class="c2">Education</h3>
 			<hr>
-			<p>2014: Completed S.S.C.</p>
-			<p>2016: Completed H.S.C.</p>
-			<p>2020: Completed B.Tech. in Computer Engg.</p>
+			<div class="timeline-item" date-is='2014'>
+				<h4>Completed Secondary School</h4>
+				<p>Score: 84% | Bright Day School, Vadodara</p>
+			</div>
+			<div class="timeline-item" date-is='2016'>
+				<h4>Completed Higher Secondary School</h4>
+				<p>Score: 88% | Bright Day School, Vadodara</p>
+			</div>
+			<div class="timeline-item" date-is='2020'>
+				<h4>Completed Bachelor of Technology in Computer Engg.</h4>
+				<p>CPI: 8.8/10 | BVM Engg. College, Anand</p>
+			</div>
 
 			<h3 class="c2">Experience</h3>
 			<hr>
@@ -110,6 +117,7 @@
 		</div>
 	</div>
 	</div>
+	<br>
 <script src="js\jquery-2.1.4.js"></script>
 <script src="js\bootstrap4.min.js"></script>
 </body>
