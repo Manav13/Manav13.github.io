@@ -4,6 +4,7 @@
 	<title>Resume - Developer</title>
 	<link rel="stylesheet" type="text/css" href="css/bootstrap4.min.css">
 	<link rel="stylesheet" type="text/css" href="css/timeline.css">
+	<link rel="stylesheet" type="text/css" href="css/css-circular-prog-bar.css">
 	<style type="text/css">
 		hr{
 			background-color: black;
@@ -44,6 +45,9 @@
 		}
 		.c2{
 			padding-top: 2px;
+		}
+		.progress-circle span{
+			color: #00b3b3;
 		}
 	</style>
 </head>
@@ -111,9 +115,35 @@
 
 			<h3 class="c2">Languages</h3>
 			<hr>
-			<p>English</p>
-			<p>Hindi</p>
-			<p>Gujarati</p>
+			<div class="row">
+				<div class="col-xs-2">
+					<div class="progress-circle over50 p80">
+					   <span>English</span>
+					   <div class="left-half-clipper">
+					      <div class="first50-bar"></div>
+					      <div class="value-bar"></div>
+					   </div>
+					</div>
+				</div>
+				<div class="col-xs-2">
+					<div class="progress-circle over50 p55">
+					   <span>Hindi</span>
+					   <div class="left-half-clipper">
+					      <div class="first50-bar"></div>
+					      <div class="value-bar"></div>
+					   </div>
+					</div>
+				</div>
+				<div class="col-xs-2">
+					<div class="progress-circle over50 p70">
+					   <span>Gujarati</span>
+					   <div class="left-half-clipper">
+					      <div class="first50-bar"></div>
+					      <div class="value-bar"></div>
+					   </div>
+					</div>
+				</div>
+			</div>
 		</div>
 	</div>
 	</div>
